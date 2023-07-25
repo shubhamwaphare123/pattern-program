@@ -1,0 +1,40 @@
+package study;
+
+public class p9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n= 12;
+		for(int i=0;i<=n;i++){//row
+			for(int j=1;j<=i;j++) {//space1
+				System.out.print(" ");
+			}
+			for(int j=1;j<=6;j++) {//star1
+				System.out.print("*");
+			}
+			int spaces = 2*(n-i);
+			for(int j=1; j<= spaces; j++) {//spaces2
+				System.out.print(" ");
+			}
+			for (int j =1;j<=6;j++) {//star2
+				System.out.print("*");
+			}
+			for (int j=1;j<=2*i;j++) {//space3
+				System.out.print(" ");
+			}
+			for(int j=1;j<=6;j++) {//star3
+				System.out.print("*");
+			}
+			for (int j= 1;j<=spaces;j++){//space4
+				System.out.print(" ");
+			}
+			for(int j=1;j<=6;j++) {//star4
+				System.out.print("*");
+			}
+			System.out.println();//next row
+		
+		}
+
+	}
+
+}
