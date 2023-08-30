@@ -1,0 +1,25 @@
+package study;
+
+public class pattern1 {
+	public static void main(String args[]) {
+		
+		int r = 9;int  c= 9;
+		
+		for(int i = 1;i<=r;i++) {
+			for(int j = 1; j<=c ; j++) {
+				if(i== 1 || j==1 || i==r || j == c||i==j||i+j==r+1) {
+					System.out.print((char)(64+i));
+					
+				}else {
+					System.out.print(" ");
+				}
+				
+			}
+			System.out.println();
+		}
+			
+		
+	}
+		
+	}
+
